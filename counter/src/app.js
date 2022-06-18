@@ -7,7 +7,7 @@ btns.forEach((btn) => {
   btn.addEventListener("click", function (e) {
     const styles = e.currentTarget.classList;
     
-    if (styles.contains("remove")) {
+    if (styles.contains("reduce")) {
       count--;
     } else if (styles.contains("add")) {
       count++;
